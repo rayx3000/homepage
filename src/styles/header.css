@@ -2,8 +2,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 7.5px 30px;
     box-sizing: border-box;
+    padding: 1% 1.2%;
+    height: 12vh;
 }
 
 header h1{
