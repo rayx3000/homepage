@@ -1,0 +1,19 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home h1{
+    font-family: "Tektur", sans-serif;
+    font-size: 3.8rem;
+    margin: 0;
+    margin-bottom: 50px;
+    color: #003355;
+}
+
+#home h2:first-of-type{
+    width: 60%;
+}
