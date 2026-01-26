@@ -2,8 +2,8 @@ main{
     display: flex;
     flex-direction: column;
     gap: 100px;
-    overflow-y: scroll;
     height: 100vh;
+    padding-top: 97.5px;
 }
 
 h1{
