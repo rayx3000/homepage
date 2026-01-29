@@ -8,6 +8,7 @@ header{
     position: fixed;
     width: 100vw;
     background: rgba(17, 72, 112, 0.8);
+    z-index: 100;
 }
 
 header h1{

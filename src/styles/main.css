@@ -54,3 +54,65 @@ h1{
     height: auto;
     border-radius: 15px;
 }
+
+img{
+    width: 39.5vw;
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 15px;
+    background: #3bc9ed;
+    background: -webkit-linear-gradient(30deg, rgba(59, 201, 237, 0.8) 0%, rgba(87, 167, 199, 1) 50%, rgba(83, 227, 237, 0.8) 100%);
+    background: -moz-linear-gradient(30deg, rgba(59, 201, 237, 0.8) 0%, rgba(87, 167, 199, 1) 50%, rgba(83, 227, 237, 0.8) 100%);
+    background: linear-gradient(30deg, rgba(59, 201, 237, 0.8) 0%, rgba(87, 167, 199, 1) 50%, rgba(83, 227, 237, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3BC9ED", endColorstr="#53E3ED", GradientType=0);
+    padding-top: 5%;
+    padding-bottom: 12%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.project-info{
+    width: 42.5vw;
+}
+
+.project-links{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+    padding-left: 4.5%;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 1px;
+}
+
+.project-links span{
+    background: #1187d6;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.project-links span:hover{
+    background: #0e6cb0;
+    cursor: pointer;
+}
+
+.project-links span:active{
+    background: #0c5a8f;
+    transform: scale(0.95);
+}
+
+.project-links a{
+    text-decoration: none;
+    color: whitesmoke;
+}
