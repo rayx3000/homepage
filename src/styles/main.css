@@ -3,7 +3,7 @@ main{
     flex-direction: column;
     gap: 100px;
     height: 100vh;
-    padding-top: 97.5px;
+    padding-top: 100px;
 }
 
 h1{
@@ -59,6 +59,14 @@ img{
     width: 39.5vw;
 }
 
+#projects > p{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+}
+
 .project-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -96,18 +104,20 @@ img{
     left: 1px;
 }
 
-.project-links span{
+.project-links a > span{
     background: #1187d6;
     padding: 10px 15px;
     border-radius: 5px;
+    display: flex;
+    gap: 12px;
 }
 
-.project-links span:hover{
+.project-links a > span:hover{
     background: #0e6cb0;
     cursor: pointer;
 }
 
-.project-links span:active{
+.project-links a > span:active{
     background: #0c5a8f;
     transform: scale(0.95);
 }
