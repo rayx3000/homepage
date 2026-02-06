@@ -126,3 +126,27 @@ img{
     text-decoration: none;
     color: whitesmoke;
 }
+
+main > #contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #0c5a8f;
+    width: 35vw;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.contact-container > span{
+    display: flex;
+    gap: 12px;
+    padding: 5px 12px;
+}

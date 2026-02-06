@@ -13,3 +13,12 @@ body{
 *{
     font-family: "Ubuntu", sans-serif;
 }
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(17, 72, 112, 0.5);
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+}
