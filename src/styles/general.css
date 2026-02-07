@@ -8,6 +8,7 @@ body{
     padding: 0;
     height: 100vh;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 *{
@@ -19,6 +20,6 @@ footer{
     padding: 20px;
     background-color: rgba(17, 72, 112, 0.5);
     color: #fff;
-    width: 100%;
+    width: 100vw;
     bottom: 0;
 }
