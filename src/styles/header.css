@@ -41,3 +41,10 @@ header h1:active{
 .main-nav a:active {
     transform: scale(0.95);
 }
+
+@media(max-width: 500px) {
+    header{
+        padding: 1% 2%;
+        height: 8.8vh;
+    }
+}

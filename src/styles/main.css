@@ -56,8 +56,12 @@ h1{
     border-radius: 15px;
 }
 
-img{
+.project img{
     width: 39.5vw;
+}
+
+section > p{
+    font-size: 1.2rem;
 }
 
 #projects > p{
@@ -65,7 +69,6 @@ img{
     width: 60%;
     margin: 0 auto;
     margin-bottom: 50px;
-    font-size: 1.2rem;
 }
 
 .project-list{
@@ -151,4 +154,104 @@ main > #contact{
     display: flex;
     gap: 12px;
     padding: 5px 12px;
+}
+
+@media(max-width: 1000px) {
+    .project-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .project{
+        width: 65vw;
+    }
+
+    .project-info{
+        width: 55vw;
+    }
+
+    section > p{
+        font-size: 0.9rem;
+    }
+
+    .project img{
+        width: 52.5vw;
+    }
+}
+
+@media(max-width: 900px) {
+    #home > h1{
+        font-size: 3rem;
+    }
+
+    #home h2{
+        font-size: 1.35rem;
+    }
+
+    #home h2:last-of-type{
+        width: 75%;
+    }
+
+    #about > div{
+        font-size: 0.9rem;
+    }
+
+    .about-image{
+        width: 300px;
+    }
+
+    .contact-container{
+        width: 50vw;
+    }
+}
+
+@media(max-width: 750px) {
+    #about > div{
+        font-size: 0.8rem;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    #about > div > h3{
+        width: 80%;
+    }
+}
+
+@media(max-width: 625px) {
+    .project{
+        width: 75vw;
+    }
+
+    .project-info{
+        width: 65vw;
+    }
+
+    #contact > p{
+        width: 80%;
+    }
+
+    .contact-container{
+        width: 62vw;
+    }
+
+    .project img{
+        width: 65vw;
+    }
+}
+
+@media(max-width: 500px) {
+    nav{
+        display: none;
+    }
+
+    .project-links{
+        gap: 5px;
+        align-self: center;
+    }
+
+    .project-links a > span{
+        padding: 5px 8px;
+        font-size: 0.9rem;;
+    }
 }
